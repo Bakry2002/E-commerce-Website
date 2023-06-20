@@ -1,0 +1,287 @@
+
+[
+        {
+        "id" : 1,
+        "productImg": "/images/products/f1.jpg",
+        "productInfo": {
+            "category": "Men's Fashion T Shirt",
+            "brand": "adidas",
+            "pName": "Cartoon T-Shirts"
+        },
+        "productDetail" : "The Gildan Ultar Cotton T-shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshunk jersy knit provides unmatched comfort with each wear. featuring a taped neck and shoulder, and a seamless double-needle color, and available in a range of colors, it offers it all in the ultimate head turning package.",
+        "availableSize" : {
+            "S" : false,
+            "L" : true,
+            "XL" : true ,
+            "XXL" : true
+        },
+        "productQuantity" : 5 ,
+        "productRate": 5,
+        "productPrice": "$100"
+    },
+
+    {
+        "id" : 2,
+        "productImg": "/images/products/f2.jpg",
+        "productInfo": {
+            "category": "Men's Fashion T Shirt",
+            "brand": "adidas",
+            "pName": "Cartoon T-Shirts"
+        },
+        "productDetail" : "The Gildan Ultar Cotton T-shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshunk jersy knit provides unmatched comfort with each wear. featuring a taped neck and shoulder, and a seamless double-needle color, and available in a range of colors, it offers it all in the ultimate head turning package.",
+        "availableSize" : {
+            "S" : true,
+            "L" : true,
+            "XL" : false ,
+            "XXL" : false
+        },
+        "productQuantity" : 5 ,
+        "productRate": 3,
+        "productPrice": "$78"
+    },
+
+    {
+        "id" : 3,
+        "productImg": "/images/products/f3.jpg",
+        "productInfo": {
+            "category": "Men's Fashion T Shirt",
+            "brand": "adidas",
+            "pName": "Cartoon T-Shirts"
+        },
+        "productDetail" : "The Gildan Ultar Cotton T-shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshunk jersy knit provides unmatched comfort with each wear. featuring a taped neck and shoulder, and a seamless double-needle color, and available in a range of colors, it offers it all in the ultimate head turning package.",
+        "availableSize" : {
+            "S" : false,
+            "L" : false,
+            "XL" : false ,
+            "XXL" : false
+        },
+        "productQuantity" : 5 ,
+        "productRate": 5,
+        "productPrice": "$78"
+    },
+
+    {
+        "id" : 4,
+        "productImg": "/images/products/f4.jpg",
+        "productInfo": {
+            "category": "Men's Fashion T Shirt",
+            "brand": "adidas",
+            "pName": "Cartoon T-Shirts"
+        },
+        "productDetail" : "The Gildan Ultar Cotton T-shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshunk jersy knit provides unmatched comfort with each wear. featuring a taped neck and shoulder, and a seamless double-needle color, and available in a range of colors, it offers it all in the ultimate head turning package.",
+        "availableSize" : {
+            "S" : true,
+            "L" : true,
+            "XL" : true ,
+            "XXL" : true
+        },
+        "productQuantity" : 5 ,
+        "productRate": 4,
+        "productPrice": "$78"
+    },
+
+    {
+        "id" : 5,
+        "productImg": "/images/products/f5.jpg",
+        "productInfo": {
+            "category": "Men's Fashion",
+            "brand": "adidas",
+            "pName": "Cartoon T-Shirts"
+        },
+        "productDetail" : "The Gildan Ultar Cotton T-shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshunk jersy knit provides unmatched comfort with each wear. featuring a taped neck and shoulder, and a seamless double-needle color, and available in a range of colors, it offers it all in the ultimate head turning package.",
+        "availableSize" : {
+            "S" : true,
+            "L" : true,
+            "XL" : true ,
+            "XXL" : true
+        },
+        "productQuantity" : 5 ,
+        "productRate": 3,
+        "productPrice": "$78"
+    },
+
+    {
+        "id" : 6,
+        "productImg": "/images/products/f6.jpg",
+        "productInfo": {
+            "category": "Men's Jackets",
+            "brand": "adidas",
+            "pName": "Two Color Jacket"
+        },
+        "productDetail" : "The Gildan Ultar Cotton T-shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshunk jersy knit provides unmatched comfort with each wear. featuring a taped neck and shoulder, and a seamless double-needle color, and available in a range of colors, it offers it all in the ultimate head turning package.",
+        "availableSize" : {
+            "S" : true,
+            "L" : true,
+            "XL" : true ,
+            "XXL" : true
+        },
+        "productQuantity" : 5 ,
+        "productRate": 4,
+        "productPrice": "$200"
+    },
+
+    {
+        "id" : 7,
+        "productImg": "/images/products/f7.jpg",
+        "productInfo": {
+            "category": "Men's Pants",
+            "brand": "adidas",
+            "pName": "Cartoon T-Shirts"
+        },
+        "productDetail" : "The Gildan Ultar Cotton T-shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshunk jersy knit provides unmatched comfort with each wear. featuring a taped neck and shoulder, and a seamless double-needle color, and available in a range of colors, it offers it all in the ultimate head turning package.",
+        "availableSize" : {
+            "S" : true,
+            "L" : true,
+            "XL" : true ,
+            "XXL" : true
+        },
+        "productQuantity" : 5 ,
+        "productRate": 5,
+        "productPrice": "$78"
+    },
+
+    {
+        "id" : 8,
+        "productImg": "/images/products/f8.jpg",
+        "productInfo": {
+            "category": "women's Fashion",
+            "brand": "adidas",
+            "pName": "Cartoon T-Shirts"
+        },
+        "productDetail" : "The Gildan Ultar Cotton T-shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshunk jersy knit provides unmatched comfort with each wear. featuring a taped neck and shoulder, and a seamless double-needle color, and available in a range of colors, it offers it all in the ultimate head turning package.",
+        "availableSize" : {
+            "S" : true,
+            "L" : true,
+            "XL" : true ,
+            "XXL" : true
+        },
+        "productQuantity" : 5 ,
+        "productRate": 5,
+        "productPrice": "$78"
+    },
+
+    {
+        "id" : 9,
+        "productImg": "/images/products/f10.jpg",
+        "productInfo": {
+            "category": "women's Fashion",
+            "brand": "Mbaazar",
+            "pName": "Cartoon T-Shirts"
+        },
+        "productDetail" : "The Gildan Ultar Cotton T-shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshunk jersy knit provides unmatched comfort with each wear. featuring a taped neck and shoulder, and a seamless double-needle color, and available in a range of colors, it offers it all in the ultimate head turning package.",
+        "availableSize" : {
+            "S" : true,
+            "L" : true,
+            "XL" : true ,
+            "XXL" : true
+        },
+        "productQuantity" : 5 ,
+        "productRate": 5,
+        "productPrice": "$120"
+    },
+
+    {
+        "id" : 10,
+        "productImg": "/images/products/f9.jpg",
+        "productInfo": {
+            "category": "Men's Pants",
+            "brand": "Gucci",
+            "pName": "Wide pants"
+        },
+        "productDetail" : "The Gildan Ultar Cotton T-shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshunk jersy knit provides unmatched comfort with each wear. featuring a taped neck and shoulder, and a seamless double-needle color, and available in a range of colors, it offers it all in the ultimate head turning package.",
+        "availableSize" : {
+            "S" : true,
+            "L" : true,
+            "XL" : true ,
+            "XXL" : true
+        },
+        "productQuantity" : 5 ,
+        "productRate": 5,
+        "productPrice": "$80"
+    },
+
+    {
+        "id" : 11,
+        "productImg": "/images/products/f11.jpg",
+        "productInfo": {
+            "category": "Basic T-Shirts",
+            "brand": "ZARA",
+            "pName": "Basic Slim Fit T-Shirt"
+        },
+        "productDetail" : "The Gildan Ultar Cotton T-shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshunk jersy knit provides unmatched comfort with each wear. featuring a taped neck and shoulder, and a seamless double-needle color, and available in a range of colors, it offers it all in the ultimate head turning package.",
+        "availableSize" : {
+            "S" : true,
+            "L" : true,
+            "XL" : true ,
+            "XXL" : true
+        },
+        "productQuantity" : 5 ,
+        "productRate": 5,
+        "productPrice": "$30"
+    },
+
+    {
+        "id" : 12,
+        "productImg": "/images/products/f12.jpg",
+        "productInfo": {
+            "category": "Basic T-Shirts",
+            "brand": "ZARA",
+            "pName": "Basic Slim Fit T-Shirt"
+        },
+        "productDetail" : "The Gildan Ultar Cotton T-shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshunk jersy knit provides unmatched comfort with each wear. featuring a taped neck and shoulder, and a seamless double-needle color, and available in a range of colors, it offers it all in the ultimate head turning package.",
+        "availableSize" : {
+            "S" : true,
+            "L" : true,
+            "XL" : true ,
+            "XXL" : true
+        },
+        "productQuantity" : 5 ,
+        "productRate": 5,
+        "productPrice": "$30"
+    },
+
+    {
+        "id" : 13,
+        "productImg": "/images/products/f13.jpg",
+        "productInfo": {
+            "category": "Basic T-Shirts",
+            "brand": "ZARA",
+            "pName": "Basic Slim Fit T-Shirt"
+        },
+        "productDetail" : "The Gildan Ultar Cotton T-shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshunk jersy knit provides unmatched comfort with each wear. featuring a taped neck and shoulder, and a seamless double-needle color, and available in a range of colors, it offers it all in the ultimate head turning package.",
+        "availableSize" : {
+            "S" : true,
+            "L" : true,
+            "XL" : true ,
+            "XXL" : true
+        },
+        "productQuantity" : 5 ,
+        "productRate": 5,
+        "productPrice": "$30"
+    },
+
+    {
+        "id" : 14,
+        "productImg": "/images/products/f14.jpg",
+        "productInfo": {
+            "category": "Basic T-Shirts",
+            "brand": "ZARA",
+            "pName": "Basic Slim Fit T-Shirt"
+        },
+        "productDetail" : "The Gildan Ultar Cotton T-shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshunk jersy knit provides unmatched comfort with each wear. featuring a taped neck and shoulder, and a seamless double-needle color, and available in a range of colors, it offers it all in the ultimate head turning package.",
+        "availableSize" : {
+            "S" : true,
+            "L" : true,
+            "XL" : true ,
+            "XXL" : true
+        },
+        "productQuantity" : 5 ,
+        "productRate": 5,
+        "productPrice": "$30"
+    }
+]
+
+
+
+
+

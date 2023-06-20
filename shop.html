@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Reset file -->
+    <link rel="stylesheet" href="/css/normalize.css">
+    <!-- utility classes file -->
+    <link rel="stylesheet" href="/css/utilities.css">
+    <!-- Main style file -->
+    <link rel="stylesheet" href="/css/main.css">
+    <title>E-Commerce</title>
+</head>
+
+<body>
+    <!-- Navigation bar  -->
+    <section id="header" class="header py-1">
+        <div class="container">
+            <div class="nav-bar">
+                <a id=logo href="#"><img src="/images/logo.png" alt="LOGO"></a>
+                <ul class="nav-links fs-16 fw-500" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="active" href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li id="bag-icon"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                    <li id="close"><i class="fa-solid fa-xmark"></i></li>
+                </ul>
+                <div id="mobile">
+                    <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+                    <i id="brg-icon" class="fas fa-outdent"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero section -->
+    <section id="shop-header" class="flex">
+            <div class="hero-text">
+                <h2 class="heading ">#staytrindy</h2>
+                <p class="paragraph my-05">Save more with coupons & Up to 70% off!</p>
+            </div>
+    </section>
+
+    <!-- products -->
+    <section id="shop-products" class="section-py">
+        <div class="container">
+            <div class="products-area flex section-py">
+            </div>
+        </div>
+    </section>
+
+    <!-- Pagination -->
+    <section id="pagination" class="section-py">
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#"><i class="fas fa-arrow-right"></i></a>
+    </section>
+
+    <!-- Contact section -->
+    <section id="newsletter" class="my-4 flex">
+        <div class="text">
+            <h2 class="sub-sub-heading">Sign Up For Newsletters</h2>
+            <p class="paragraph my-05">Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="email" name="email" placeholder="Your email address">
+            <input type="submit" value="Sign Up" class="btn">
+        </div>
+    </section>
+
+    <!-- footer -->
+    <div class="container">
+        <footer id="footer">
+            <div class="col">
+                <a href="#"><img class="footer-logo" src="/images/logo.png" alt="LOGO"></a>
+                <h4>Contact</h4>
+                <p><strong>Address: </strong>40 District N, Hadayeq October, Giza</p>
+                <p><strong>Phone: </strong>+20 1140338614 / +20 1125200936</p>
+                <p><strong>Hours: </strong>10:00 - 18:00.Mon - Sat</p>
+                <div class="follow">
+                    <h4>Follow Us</h4>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="col">
+                <h4>About</h4>
+                <a href="">Delivery Information</a>
+                <a href="">Privacy Policy</a>
+                <a href="">Terms & Condition</a>
+                <a href="">Contact Us</a>
+            </div>
+
+            <div class="col">
+                <h4>My Acoount</h4>
+                <a href="">Sign In</a>
+                <a href="">View Cart</a>
+                <a href="">My Wishlist</a>
+                <a href="">Track My Order</a>
+                <a href="">Help</a>
+            </div>
+
+            <div class="col">
+                <h4>Install App</h4>
+                <p>From App Store or Google Play</p>
+                <div class="install">
+                    <a href=""><img src="/images/pay/app.jpg" alt="App Store"></a>
+                    <a href=""><img src="/images/pay/play.jpg" alt="Google Play Store"></a>
+                </div>
+                <p>Secured Payment Geteways</p>
+                <div class="payment">
+                    <a href=""><img src="/images/pay/pay.png" alt="Payment Ways"></a>
+                </div>
+            </div>
+        </footer>
+        <div class="copyright text-center">
+            <p>&copy; 2022. A.B☠ - <strong>Cara</strong> Ecommerce Website</p>
+        </div>
+    </div>
+
+
+    <script src="/js/shop.js"></script>
+</body>
+</html>

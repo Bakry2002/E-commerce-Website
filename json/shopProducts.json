@@ -1,0 +1,177 @@
+[
+    {
+        "productImg": "/images/products/f1.jpg",
+        "productInfo": {
+            "brand": "adidas",
+            "pName": "Cartoon T-Shirts"
+        },
+        "productRate": 5,
+        "productPrice": "$78",
+        "quantity" : "1" 
+    },
+
+    {
+        "productImg": "/images/products/f2.jpg",
+        "productInfo": {
+            "brand": "adidas",
+            "pName": "Cartoon T-Shirts"
+        },
+        "productRate": 3,
+        "productPrice": "$78",
+        "quantity" : "1" 
+    },
+
+    {
+        "productImg": "/images/products/f3.jpg",
+        "productInfo": {
+            "brand": "adidas",
+            "pName": "Cartoon T-Shirts"
+        },
+        "productRate": 5,
+        "productPrice": "$78",
+        "quantity" : "1" 
+    },
+
+    {
+        "productImg": "/images/products/f4.jpg",
+        "productInfo": {
+            "brand": "adidas",
+            "pName": "Cartoon T-Shirts"
+        },
+        "productRate": 4,
+        "productPrice": "$78",
+        "quantity" : "1" 
+    },
+
+    {
+        "productImg": "/images/products/f5.jpg",
+        "productInfo": {
+            "brand": "adidas",
+            "pName": "Flowerd T-Shirt"
+        },
+        "productRate": 3,
+        "productPrice": "$65",
+        "quantity" : "1" 
+    },
+
+    {
+        "productImg": "/images/products/f6.jpg",
+        "productInfo": {
+            "brand": "H&M",
+            "pName": "Two Color Jacket"
+        },
+        "productRate": 4,
+        "productPrice": "$100",
+        "quantity" : "1" 
+    },
+
+    {
+        "productImg": "/images/products/f7.jpg",
+        "productInfo": {
+            "brand": "Gucci",
+            "pName": "Wide pants with flower"
+        },
+        "productRate": 5,
+        "productPrice": "$78",
+        "quantity" : "1" 
+    },
+
+    {
+        "productImg": "/images/products/f8.jpg",
+        "productInfo": {
+            "brand": "Gucci",
+            "pName": "short Dress"
+        },
+        "productRate": 5,
+        "productPrice": "$120",
+        "quantity" : "1" 
+    },
+    
+    {
+        "productImg": "/images/products/n1.jpg",
+        "productInfo": {
+            "brand": "H&M",
+            "pName": "short collar shirt"
+        },
+        "productRate": 4,
+        "productPrice": "$50",
+        "quantity" : "1" 
+    },
+
+    {
+        "productImg": "/images/products/n2.jpg",
+        "productInfo": {
+            "brand": "H&M",
+            "pName": "Tall collar shirt"
+        },
+        "productRate": 5,
+        "productPrice": "$50",
+        "quantity" : "1" 
+    },
+
+    {
+        "productImg": "/images/products/n3.jpg",
+        "productInfo": {
+            "brand": "H&M",
+            "pName": "short collar shirt"
+        },
+        "productRate": 5,
+        "productPrice": "$78",
+        "quantity" : "1" 
+    },
+
+    {
+        "productImg": "/images/products/n4.jpg",
+        "productInfo": {
+            "brand": "Gucci",
+            "pName": "Short sleeve shirt"
+        },
+        "productRate": 3,
+        "productPrice": "$50",
+        "quantity" : "1" 
+    },
+
+    {
+        "productImg": "/images/products/n5.jpg",
+        "productInfo": {
+            "brand": "H&M",
+            "pName": "Tall collar shirt"
+        },
+        "productRate": 5,
+        "productPrice": "$50",
+        "quantity" : "1" 
+    },
+
+    {
+        "productImg": "/images/products/n6.jpg",
+        "productInfo": {
+            "brand": "adidas",
+            "pName": "Brown Short"
+        },
+        "productRate": 5,
+        "productPrice": "$45",
+        "quantity" : "1" 
+    },
+
+    {
+        "productImg": "/images/products/n7.jpg",
+        "productInfo": {
+            "brand": "H&M",
+            "pName": "Tall collar shirt"
+        },
+        "productRate": 3,
+        "productPrice": "$50",
+        "quantity" : "1" 
+    },
+    
+    {
+        "productImg": "/images/products/n8.jpg",
+        "productInfo": {
+            "brand": "Gucci",
+            "pName": "Short sleeve shirt"
+        },
+        "productRate": 5,
+        "productPrice": "$50",
+        "quantity" : "1" 
+    }
+]

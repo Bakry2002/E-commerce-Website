@@ -1,0 +1,377 @@
+/* Container */
+.container {
+    /* max-width: 1020px; */
+    /* margin: 0 auto; */
+    padding: 0 80px;
+}
+
+/* flex Box*/
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+/* Grid Layot */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    height: 100%;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    padding: 15px 30px;
+    transition: 0.4s;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+}
+
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+}
+
+/* Font size */
+
+.fs-14 {
+    font-size: 0.875em;
+}
+.fs-16 {
+    font-size: 1em;
+}
+.fs-20 {
+    font-size: 1.25em;
+}
+.fs-24 {
+    font-size: 1.5em;
+}
+.fs-28 {
+    font-size: 1.75em;
+}
+.fs-32 {
+    font-size: 2em;
+}
+.fs-38 {
+    font-size: 2.375em;
+}
+.fs-48 {
+    font-size: 3em;
+}
+
+/* Font Weight */
+
+.fw-100 {
+    font-weight: 100;
+}
+.fw-200 {
+    font-weight: 200;
+}
+.fw-300 {
+    font-weight: 300;
+}
+.fw-400 {
+    font-weight: 400;
+}
+.fw-500 {
+    font-weight: 500;
+}
+.fw-600 {
+    font-weight: 600;
+}
+.fw-700 {
+    font-weight: 700;
+}
+.fw-800 {
+    font-weight: 800;
+}
+.fw-900 {
+    font-weight: 900;
+}
+
+/* Heading */
+
+.heading {
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 1.2em;
+    letter-spacing: 1px;
+}
+
+.sub-heading {
+    font-size: 2.5em;
+    font-weight: 700;
+    line-height: 1em;
+}
+
+.sub-sub-heading {
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 1em;
+}
+
+.title {
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 1em;
+    letter-spacing: 0.5px
+}
+
+.paragraph {
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1em;
+    color: #465b52;
+}
+
+.section-py {
+    padding: 40px 0;
+}
+.section-my {
+    margin: 40px 0;
+}
+
+/* Color */
+.main-text-clr {
+    color: var(--main-text-clr);
+}
+.secondary-text-clr {
+    color: var(--secondary-text-clr);
+}
+
+/* text Align */
+.text-center {
+    text-align: center;
+}
+
+/* Margin-y + Padding-y */
+.my-05{
+    margin: 0.5em 0;
+}
+.my-1 {
+    margin: 1.25em 0;
+}
+.my-2 {
+    margin: 2em 0;
+}
+.my-4 {
+    margin: 4em 0;
+}
+.my-6 {
+    margin: 6em 0;
+}
+.my-8 {
+    margin: 8em 0;
+}
+.my-10 {
+    margin: 10em 0;
+}
+.py-05 {
+    padding: 0.5em 0;
+}
+.py-1 {
+    padding: 1.25em 0;
+}
+.py-2 {
+    padding: 2em 0;
+}
+.py-4 {
+    padding: 4em 0;
+}
+.py-6 {
+    padding: 6em 0;
+}
+.py-8 {
+    padding: 8em 0;
+}
+.py-10 {
+    padding: 10em 0;
+}
+
+/* Margin-x + Padding-x */
+
+.mx-05 {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+.mx-1 {
+    margin-left: 1.25em;
+    margin-right: 1.25em;
+}
+.mx-2 {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.mx-4 {
+    margin-left: 4em;
+    margin-right: 4em;
+}
+.mx-6 {
+    margin-left: 6em;
+    margin-right: 6em;
+}
+.mx-8 {
+    margin-left: 8em;
+    margin-right: 8em;
+}
+.mx-10 {
+    margin-left: 10em;
+    margin-right: 10em;
+}
+.px-1 {
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+}
+.px-1 {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+.px-2 {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.px-4 {
+    padding-left: 4em;
+    padding-right: 4em;
+}
+.px-6 {
+    padding-left: 6em;
+    padding-right: 6em;
+}
+.px-8 {
+    padding-left: 8em;
+    padding-right: 8em;
+}
+.px-10 {
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+/* Tooltip */
+/* 
+[data-tooltip] {
+    position: relative;
+    cursor: pointer;
+}
+
+[data-tooltip]:before,
+[data-tooltip]:after {
+    line-height: 1;
+    font-size: .9em;
+    pointer-events: none;
+    position: absolute;
+    box-sizing: border-box;
+    display: none;
+    opacity: 0;
+}
+
+[data-tooltip]:before {
+    content: "";
+    border: 5px solid transparent;
+    z-index: 100;
+}
+
+[data-tooltip]:after {
+    content: attr(data-tooltip);
+    text-align: center;
+    min-width: 3em;
+    max-width: 21em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 6px 8px;
+    border-radius: 3px;
+    background: #4621FF;
+    color: #FFFFFF;
+    z-index: 99;
+}
+
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+    display: block;
+    opacity: 1;
+}
+
+[data-tooltip]:not([data-flow])::before,
+[data-tooltip][data-flow="top"]::before {
+    bottom: 100%;
+    border-bottom-width: 0;
+    border-top-color: #4621FF;
+}
+
+[data-tooltip]:not([data-flow])::after,
+[data-tooltip][data-flow="top"]::after {
+    bottom: calc(100% + 5px);
+}
+
+[data-tooltip]:not([data-flow])::before,
+[tooltip]:not([data-flow])::after,
+[data-tooltip][data-flow="top"]::before,
+[data-tooltip][data-flow="top"]::after {
+    left: 50%;
+    -webkit-transform: translate(-50%, -4px);
+    transform: translate(-50%, -4px);
+}
+
+[data-tooltip][data-flow="bottom"]::before {
+    top: 100%;
+    border-top-width: 0;
+    border-bottom-color: #4621FF;
+}
+
+[data-tooltip][data-flow="bottom"]::after {
+    top: calc(100% + 5px);
+}
+
+[data-tooltip][data-flow="bottom"]::before,
+[data-tooltip][data-flow="bottom"]::after {
+    left: 50%;
+    -webkit-transform: translate(-50%, 8px);
+    transform: translate(-50%, 8px);
+}
+
+[data-tooltip][data-flow="left"]::before {
+    top: 50%;
+    border-right-width: 0;
+    border-left-color: #4621FF;
+    left: calc(0em - 5px);
+    -webkit-transform: translate(-8px, -50%);
+    transform: translate(-8px, -50%);
+}
+
+[data-tooltip][data-flow="left"]::after {
+    top: 50%;
+    right: calc(100% + 5px);
+    -webkit-transform: translate(-8px, -50%);
+    transform: translate(-8px, -50%);
+}
+
+[data-tooltip][data-flow="right"]::before {
+    top: 50%;
+    border-left-width: 0;
+    border-right-color: #4621FF;
+    right: calc(0em - 5px);
+    -webkit-transform: translate(8px, -50%);
+    transform: translate(8px, -50%);
+}
+
+[data-tooltip][data-flow="right"]::after {
+    top: 50%;
+    left: calc(100% + 5px);
+    -webkit-transform: translate(8px, -50%);
+    transform: translate(8px, -50%);
+}
+
+[data-tooltip=""]::after,
+[data-tooltip=""]::before {
+    display: none !important;
+} */

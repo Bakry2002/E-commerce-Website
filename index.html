@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Reset file -->
+    <link rel="stylesheet" href="/css/normalize.css">
+    <!-- utility classes file -->
+    <link rel="stylesheet" href="/css/utilities.css">
+    <!-- Main style file -->
+    <link rel="stylesheet" href="/css/main.css">
+    <title>E-Commerce</title>
+</head>
+
+
+<body>
+    <!-- Navigation bar  -->
+    <section id="header" class="header py-1">
+        <div class="container">
+            <div class="nav-bar">
+                <a id=logo href="#"><img src="/images/logo.png" alt="LOGO"></a>
+                <ul class="nav-links fs-16 fw-500" id="nav-links">
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li id="bag-icon"><a href="cart.html">Cart -&nbsp;<i class="fa-solid fa-bag-shopping"></i></a></li>
+                    <li id="close"><i class="fa-solid fa-xmark"></i></li>
+                </ul>
+
+                <div class="cart">
+                    <button type="button" id="cart-btn">
+                        <i  id="shopping-cart" class="fas fa-shopping-cart"></i>
+                        <span id="cart-count-info">0</span>
+                    </button>
+
+                    <div id="cart-container" class="cart-container">
+                        <div class="cart-list">
+                            <!-- the product added to the cart is here -->
+                            <!-- Single Item -->
+<!--                             <div class="cart-item">
+                                <img src="/images/products/f1.jpg" alt="product image">
+                                <div class="cart-item-info">
+                                    <h3 class="cart-item-name">Cartoon Astronaut T-shirt</h3>
+                                    <span class="cart-item-brand">Adidas</span>
+                                    <span class="cart-item-price">$78.00</span>
+                                </div>
+                                <button type="button" class="cart-item-del-btn">
+                                    <i class="far fa-times-circle"></i>
+                                </button>
+                            </div> -->
+                            <!-- End of Single Item -->
+                        </div>
+
+                        <div class="cart-total">
+                            <h3>Total: $</h3>
+                            <span id="cart-total-value"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="product-detail">
+                    <i class="fa-solid fa-xmark close-btn"></i>
+                    <div class="product-detail-list">
+                        <!-- Single product deatil here -->
+ <!--                        <div class="product-deatil-item">
+                            <div class="product-detail-image" id="main">
+                                <img src="/images/products/f1.jpg" alt="" id="mainImg" data-category="Mens's T Shirt">
+                                <div class="product-related-image">
+                                    <div class="related-image-col">
+                                        <img src="/images/products/f1.jpg" alt="" data-category="Mens's T Shirt" class="small-img">
+                                    </div>
+                                    <div class="related-image-col">
+                                        <img src="/images/products/f2.jpg" alt="" data-category="Mens's T Shirt" class="small-img">
+                                    </div>
+                                    <div class="related-image-col">
+                                        <img src="/images/products/f3.jpg" alt="" data-category="Mens's T Shirt" class="small-img">
+                                    </div>
+                                    <div class="related-image-col">
+                                        <img src="/images/products/f4.jpg" alt="" data-category="Mens's T Shirt" class="small-img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-detail-text">
+                                <h4 class="sub-sub-heading product-category">Men's T Shirt/ Cartoon Astronaut T-Shirt</h4>
+                                <div class="product-purchase">
+                                    <div class="product-price">
+                                        <span>Price/</span>
+                                        <h2 class="sub-heading price">$139.00</h2>
+                                    </div>
+                                    <div class="product-quantity">
+                                        <span class="select-quantity">Quantity</span>
+                                        <input type="number" value="1" id="quantity-value">
+                                    </div>
+                                </div>
+                                <div class="product-size">
+                                    <div class="select-size">Select Size</div>
+                                    <span id="small">S</span>
+                                    <span id="large">L</span>
+                                    <span id="xlarge">XL</span>
+                                    <span id="xxlarge">XXL</span>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                
+                <div id="mobile">
+                    <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+                    <i id="brg-icon" class="fas fa-outdent"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero section -->
+    <section id="hero" class="flex">
+        <div class="container">
+            <div class="hero-text">
+                <h4 class="sub-sub-heading">Trade-in-Offer</h4>
+                <h2 class="heading ">Super value deals <br><span class="secondary-text-clr">On all products</span></h2>
+                <p class="paragraph my-05">Save more with coupons & Up to 70% off!</p>
+                <button class="btn shop-now-btn my-1 secondary-text-clr fs-16 py-1 px-6 fw-700">Shop Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features section -->
+    <section id="features" class="section-py">
+        <div class="container">
+            <div class="features-content flex ">
+                <div class="box">
+                    <img src="/images/features/f1.png" alt="">
+                    <p>Free Shipping</p>
+                </div>
+                <div class="box">
+                    <img src="/images/features/f2.png" alt="">
+                    <p>Online Order</p>
+                </div>
+                <div class="box">
+                    <img src="/images/features/f3.png" alt="">
+                    <p>Save Money</p>
+                </div>
+                <div class="box">
+                    <img src="/images/features/f4.png" alt="">
+                    <p>Promotions</p>
+                </div>
+                <div class="box">
+                    <img src="/images/features/f5.png" alt="">
+                    <p>Happy Service</p>
+                </div>
+                <div class="box">
+                    <img src="/images/features/f6.png" alt="">
+                    <p>F24/7 Support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured products -->
+    <section id="f-products" class="section-py">
+        <div class="container">
+            <div class="section-heading text-center">
+                <h2 class="heading">Featured Products</h2>
+                <p class="paragraph">Summer Collection New Modern Design</p>
+            </div>
+            <div class="products-area flex section-py">
+            </div>
+        </div>
+    </section>
+
+    <!-- Explore banner -->
+    <section id="ex-banner" class="section-my">
+        <div class="text text-center">
+            <h6 class="title my-05">Repair Services</h6>
+            <h2 class="heading">Up to <span>70% Off!</span> - All t-Shirts & Accssories</h2>
+            <button class="btn ex-btn my-05 fw-700 ">Explore More</button>
+        </div>
+    </section>
+
+    <!-- New Arrival section -->
+    <section id="newAarrival-products" class="section-py">
+        <div class="container">
+            <div class="section-heading text-center">
+                <h2 class="heading">New Arrivals</h2>
+                <p class="paragraph">Summer Collection New Modern Design</p>
+            </div>
+            <div class="products-area flex section-py"></div>
+    </section>
+
+    <!-- Call to action banner -->
+    <section id="cta-banner" class="my-2">
+        <div class="container">
+            <div class="cta-content flex">
+                <div class="banner">
+                    <h6 class="sub-sub-heading my-05">Crazy deals</h6>
+                    <h2 class="sub-heading">Buy 1 Get 1 Free</h2>
+                    <p class="paragraph my-05">The best classic dress is on sale at cara</p>
+                    <button class="btn light-btn my-05 ">Learn More</button>
+                </div>
+                <div class="banner">
+                    <h6 class="sub-sub-heading my-05">Spring/Summer</h6>
+                    <h2 class="sub-heading">Upcoming Season</h2>
+                    <p class="paragraph my-05">The best classic dress is on sale at cara</p>
+                    <button class="btn light-btn my-05 ">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Text banner -->
+    <section id="text-banner" class="my-2">
+        <div class="container">
+            <div class="text-banner-content flex">
+                <div class="banner">
+                    <h2 class="sub-sub-heading my-05">Seasonal Sale</h2>
+                    <h6 class="title">Winter collection - 50% Off!</h6>
+                </div>
+                <div class="banner">
+                    <h2 class="sub-sub-heading my-05">new footwear collection</h2>
+                    <h6 class="title">spring/summer 2022</h6>
+                </div>
+                <div class="banner">
+                    <h2 class="sub-sub-heading my-05">T-shirts</h2>
+                    <h6 class="title">new trendy prints</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="newsletter" class="my-4 flex">
+        <div class="text">
+            <h2 class="sub-sub-heading">Sign Up For Newsletters</h2>
+            <p class="paragraph my-05">Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="email" name="email" placeholder="Your email address">
+            <input type="submit" value="Sign Up" class="btn">
+        </div>
+    </section>
+
+    <abbr title="Out Of Stock">hover here</abbr>
+
+    <!-- footer -->
+    <div class="container">
+        <footer id="footer">
+            <div class="col">
+                <a href="#"><img class="footer-logo" src="/images/logo.png" alt="LOGO"></a>
+                <h4>Contact</h4>
+                <p><strong>Address: </strong>40 District N, Hadayeq October, Giza</p>
+                <p><strong>Phone: </strong>+20 1140338614 / +20 1125200936</p>
+                <p><strong>Hours: </strong>10:00 - 18:00.Mon - Sat</p>
+                <div class="follow">
+                    <h4>Follow Us</h4>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="col">
+                <h4>About</h4>
+                <a href="">Delivery Information</a>
+                <a href="">Privacy Policy</a>
+                <a href="">Terms & Condition</a>
+                <a href="">Contact Us</a>
+            </div>
+
+            <div class="col">
+                <h4>My Acoount</h4>
+                <a href="">Sign In</a>
+                <a href="">View Cart</a>
+                <a href="">My Wishlist</a>
+                <a href="">Track My Order</a>
+                <a href="">Help</a>
+            </div>
+
+            <div class="col">
+                <h4>Install App</h4>
+                <p>From App Store or Google Play</p>
+                <div class="install">
+                    <a href=""><img src="/images/pay/app.jpg" alt="App Store"></a>
+                    <a href=""><img src="/images/pay/play.jpg" alt="Google Play Store"></a>
+                </div>
+                <p>Secured Payment Geteways</p>
+                <div class="payment">
+                    <a href=""><img src="/images/pay/pay.png" alt="Payment Ways"></a>
+                </div>
+            </div>
+        </footer>
+        <div class="copyright text-center">
+            <p>&copy; 2022. A.B☠ - <strong>Cara</strong> Ecommerce Website</p>
+        </div>
+    </div>
+
+
+    <script src="/js/index.js"></script>
+</body>
+</html>
